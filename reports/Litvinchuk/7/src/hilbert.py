@@ -1,6 +1,7 @@
 """Hilbert curve utilities."""
 
 
+# pylint: disable=too-many-statements
 def hilbert_curve_points(order, step, x0, y0):
     """Return points for drawing a Hilbert curve."""
     points = []
